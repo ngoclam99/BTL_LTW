@@ -1,0 +1,50 @@
+
+#border-top{
+	border:4px solid #c83185;
+}
+#page, #header{
+    overflow: hidden;
+}
+#header{
+	padding: 10px 0;
+	/*background: #f0f0f0;*/
+}
+#tophead{
+	width: 100% !important;
+	height: 120px;
+}
+#block-2{
+	background: #d80000;
+	font-size: 14px;
+	height: 41px;
+}
+#menu{
+	height: 44px;
+	line-height: 44px;
+}
+#menu li{
+	float: left;
+}
+
+#footer{
+	margin-top: 10px;
+	background: #d80000;
+	color:#fff;
+}
+#endpage{
+}
+
+#tinnoibat{
+	margin-top: 50px;
+	padding: 20px 0;
+	background: #f2f2f2;
+    color: #222;
+    margin-bottom: 30px;
+}
+#lienhe{
+	width: 100%;
+	margin: 20px 0;
+	padding: 80px;
+	background: url('../img/lienhe.jpg') no-repeat center ; 
+	background-size: cover;
+}

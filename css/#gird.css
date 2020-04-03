@@ -49,13 +49,12 @@ body{
 	margin-left: auto;
 }
 .container{
-	width: 83%;
+	width: 1160px;
 	margin-right: auto;
 	margin-left: auto;
 }
 .grid_12{
-	width: 98%;
-	display: block;
+	width: 1140px;
 }
 .grid_5{
 	width: 380px;
@@ -69,11 +68,11 @@ body{
 	clear: both;
 }
 .tophead-left{
-	width: 25%;
+	width: 270px;
 	margin-right: 10px;
 }
 .tophead-midder{
-	width: 45%;
+	width: 560px;
 	margin-left: 10px;
 	margin-right: 10px;
 	line-height: 120px;
@@ -91,7 +90,7 @@ a{
 	text-decoration: none;
 }
 .btn{
-	padding: 7px;
+	padding: 13px;
 	font-weight: bold;
 	color: #fff!important;
 	vertical-align: middle;
@@ -109,14 +108,14 @@ a{
 	cursor: pointer;
 }
 .w3-input{
-	padding: 6px;
-	width:63%;
+	padding: 12px;
+	width:78%;
 	font-weight: bold;
 
 }
 
 .btn-timkiem{
-	width: 75px;
+	width: 117px;
 	margin-left: -5px;
 }
 .dangky{
@@ -126,7 +125,7 @@ a{
 /*========================menu left==============================*/
 
 .menu-left{
-	width: 25%;
+	width: 300px;
 	float: left;
 	font-family: Verdana;
 	border:1px solid #ccc;
@@ -191,14 +190,14 @@ a{
 
 /*========================menu right==============================*/
 .menu-right{
-	width: 70%;
+	width: 820px;
 	float: right;
 	font-family: Tahoma;
 }
 
 .menu-right li{
 	float: left;
-	width: 22%;
+	width: 205px;
 	padding: 10px;
 	text-align: center;
 	transition: all 0.5s;

@@ -1,0 +1,146 @@
+#chitiet{
+	background: #f2f2f2;
+    padding: 30px 190px;
+    margin:30px 0;
+}
+
+.post-time {
+    font-style: italic;
+    color: #a9a9a9;
+}
+.col-1{width:8.33%;}
+.col-2{width:16.66%;}
+.col-3{width:25%;}
+.col-4{width:33.33%;}
+.col-5{width:41.66%;}
+.col-6{width:50%;}
+.col-7{width:58.33%;}
+.col-8{width:66.66%;}
+.col-9{width:75%;}
+.col-10{width:83.33%;}
+.col-11{width:91.66%;}
+.col-12{width:100%;}
+[class*="col-"]{
+	float: left;
+}
+.row::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.size-14{
+	font-weight: bold;
+	font-size: 14px;
+}
+.box-desc {
+    border: solid 1px #ccc;
+    padding: 10px;
+    margin-top: 20px;
+}
+.box-desc ul{
+	padding:10px 30px;
+	list-style-type: square;
+	font-size: 13px;
+}
+.btnn {
+    width: 100%;
+    font-size: 20px;
+    border-radius: 0;
+    padding: 10px 0;
+    margin: 20px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    border:solid 1px #bd0000;
+}
+.btn-tomato:hover, .btn-tomato:active, .btn-tomato:focus {
+    color: #fff;
+    background: #bd0000;
+}
+.btn-tomato {
+    background: #d80000;
+    color: #fff;
+}
+.video-player{
+	padding-left: 20px;
+	margin-top: 20px;
+}
+.related{
+	padding: 30px 190px;
+    margin:30px 0;
+}
+.sidebar-title {
+    background: #f2f2f2;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 7px 10px;
+    border: solid 1px #ccc;
+}
+.sidebar-body {
+    border: solid 1px #ccc;
+    border-top: none;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.sidebar-post {
+    border-bottom: 1px dotted #ccc;
+    padding: 6px 0;
+ }
+ .sidebar-post:last-child {
+    border-bottom: none;
+ }
+ .clearfix{
+ 	content: " ";
+    display: table; 	
+ }
+.sidebar-thumbnail {
+    position: relative;
+    width:30%;
+    margin-right: 10px;
+    float: left;
+}
+.sidebar-post-title{
+	width: 60%;
+	float:left;
+	width: calc(70% - 10px);
+    line-height: 17px;
+    height: 51px;
+    overflow: hidden;
+    font-size: 13px;
+	color: #d80000;
+}
+.post-dail{
+	padding-left: 20px;
+}
+.post-content{
+	 margin-bottom: -1px;
+}
+.nav-tabs {
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+}
+.nav {
+    padding-left: 0;
+    list-style: none;
+
+}
+.nav li{
+	float: left;
+	margin-right: 2px;
+	padding: 10px 20px;
+}
+.nav .active{
+	border: 1px solid #ddd;
+	border-bottom: transparent;
+	font-weight: bold;
+}
+.nav li a{
+
+}
+
+.tab-content{
+	padding-top: 50px;
+}
+.tab-content p,span{
+	margin: 12px 0;
+}

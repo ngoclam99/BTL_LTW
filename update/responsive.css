@@ -1,0 +1,121 @@
+
+@media only screen and (max-width: 1200px){
+	.tophead-right{
+		display: block;
+		width: 100%;
+		padding: 0 22px 10px ;
+		line-height: 50px;
+		text-align: right;
+		padding-right:27%;
+	}
+	.tophead-left{
+		width: 35%;
+	}
+	.container{
+		width: 100%;
+	}
+	.btn{
+		padding: 6px;
+	}
+	.w3-input {
+    padding: 5px;
+	}
+	#chitiet{
+		padding:10px;
+	}
+	.related{
+		padding:0;
+	}
+}
+@media only screen and (max-width: 850px){
+	.tophead-left{
+		width: 40%;
+	}
+	.w3-input {
+	    width: 50%;
+	}
+	.btn-timkiem {
+    	width: 87px;
+	}
+	.menu-left{
+		height: auto;
+		border: none;
+		width: 100%;
+	}
+	.menu-left .ul_lef>li:first-child{
+		background: none;
+		color: #fff;
+		text-align: center;
+	}
+	.menu-right {
+		width: 100%;
+		padding-left: 20px;
+		padding-top: 10px;
+		
+	}
+	.ul_right{
+		overflow: hidden;
+		background-color: #D80002;
+	}
+	#chitiet .col-3,.col-9{
+		width: 100%;
+	}
+	.related .col-3,.col-9{
+		width: 100%;
+	}
+	.related .col-3 > div{
+		float: left;
+		width: 50%;
+		padding: 10px;
+	}
+	.post-dail {
+    padding-left: 10px;
+	}
+	.container_2{
+		padding: 10px;
+	}
+	#footer .col-md-4:first-child{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	#footer .col-md-4{
+		width: 40%;
+	}
+
+}
+@media only screen and (max-width: 690px){
+	.tophead-right{
+		padding-right: 0;
+	}
+	.tophead-left{
+		width: 100%;
+	}
+	#lienhe .col-md-6{
+		width: 100%;
+	}
+	.related .col-3 > div{
+		width: 100%;
+		padding: 10px;
+	}
+	#footer .col-md-4{
+		width: 100%;
+		margin-bottom: 10px;
+		padding-right: 20px;
+	}
+
+}
+@media only screen and (max-width: 550px){
+	.tophead-midder{
+		width: 100%;
+		text-align: center;
+	}
+	.tophead-right{
+		width: 100%;
+		text-align: center;
+	}
+	.tophead-left{
+		width: 100%;
+		text-align: center;
+	}
+
+}

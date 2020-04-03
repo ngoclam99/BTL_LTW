@@ -14,31 +14,18 @@
 	<!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
 </head>
 <body>
-    <div id="tophead" class="container-fluid topdangnhap">
-        <form class="w3-container">
-            <div class="container">
-                <div class="tophead-left column">
-                    <img src="img/hinh1.png">
-                    <h2><b>Hotline: <span><font color="#d80000">0964 299 222</font></span></b></h2>
-                </div>
-                
-                <div class="tophead-right">
-                    <a href="DangKy.html" class="btn btn-green dangky">
-                        <i class="fa fa-user-plus"></i>&nbsp; Đăng ký
-                    </a>
-                    <a href="DangNhap.html" class="btn btn-danger">
-                        <i class="fa fa-sign-in" aria-hidden="true"></i>Đăng nhập
-                    </a>
-                </div>
-            </div>
-        </form>
+    <div id="tophead" class="container-fluid">
     </div>
-<div class="login-block">
-    <h1>Đăng nhập</h1>
-    <input type="text" placeholder="Username" id="username"/>
-    <input type="password" value="" placeholder="Password" id="password" />
-    <button onclick="emailIsValid()"> Đăng nhập</button>
-</div>
+    <div class="clear"></div>
+    <div class="login-block">
+        <form method="post">
+             <h1>Đăng nhập</h1>
+            <input type="text" placeholder="Username" id="username" required />
+            <input type="password" value="" placeholder="Password" id="password"  required />
+            <button onclick="kiemtra()"> Đăng nhập</button>
+        </form>
+       
+    </div>
 <div id="footer" class="container-fluid float-left">
     <div class="container ">
         <div class="col-md-4">
@@ -69,16 +56,9 @@
         </div>
     </div>
 </div>
+<script type="text/javascript" src="js/danhmuc.js"></script>
 <script>
-    function emailIsValid () {
-        var email = document.getElementById('username').value;
-        // var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
-        // var ktemail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        // var ktkytu = /\d/;
-        if (!ktkytu.test(email)) 
-        {
-            console.log("sai");
-        }
-        else console.log("ok");
+    function kiemtra () {
+        
     }
 </script>
